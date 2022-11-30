@@ -2,7 +2,7 @@
 
 using OnlineCourseRegistration.Domain.Base;
 
-namespace NewOnlineCourseReg.Infrastructure.Data.Repositories.Models
+namespace OnlineCourseRegistration.Persistence.Repositories.Models_Later
 {
     public class CourseRegistrationForm : BaseEntity<string>
     {

@@ -2,7 +2,7 @@
 
 using OnlineCourseRegistration.Domain.Base;
 
-namespace NewOnlineCourseReg.Infrastructure.Data.Repositories.Models
+namespace OnlineCourseRegistration.Persistence.Repositories.Models_Later
 {
 
     //public record Course(string CampId, string FacId, string DeptId, string ProgId, string ProgOptionId, string AsetId,

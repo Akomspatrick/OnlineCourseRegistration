@@ -12,6 +12,9 @@ namespace OnlineCourseRegistration.Application.Contracts.Commands
         public AddNewCourseCommandValidator()
         {
             RuleFor(v => v.course.CourseId).MinimumLength(3).MaximumLength(6).NotEmpty();
+           // RuleFor(v => v.course.CourseId).MaximumLength(6).MaximumLength(6).NotEmpty();
+
+
 
         }
     }

@@ -3,7 +3,7 @@ using OnlineCourseRegistration.Domain.Base;
 using OnlineCourseRegistration.Domain.ValueObjects;
 using System.Collections.ObjectModel;
 
-namespace NewOnlineCourseReg.Infrastructure.Data.Repositories.Models
+namespace OnlineCourseRegistration.Persistence.Repositories.Models_Later
 {
     public partial class Student : BaseEntity<string>
     {
